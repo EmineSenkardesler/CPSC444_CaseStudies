@@ -28,7 +28,7 @@
    scikit-learn scikit-gstat pykrige matplotlib seaborn tqdm gdal
  ```
 
- Alternative (pip-only) often works on Linux, but geospatial wheels may be tricky on macOS/Windows. Prefer conda above.
+ ### 2) pip install..
 
  ```bash
  pip install jupyter numpy pandas geopandas rasterio rioxarray shapely \
