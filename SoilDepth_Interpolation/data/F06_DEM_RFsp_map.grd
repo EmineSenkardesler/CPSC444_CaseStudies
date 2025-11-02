@@ -1,0 +1,25 @@
+[general]
+creator=R package 'raster'
+created=2020-09-25 13:51:25
+[georeference]
+nrows=129
+ncols=82
+xmin=302797.797220096
+ymin=5817797.14307578
+xmax=303617.797220096
+ymax=5819087.14307578
+projection=+proj=utm +zone=21 +south +datum=WGS84 +units=m +no_defs
+[data]
+datatype=FLT4S
+byteorder=little
+nbands=5
+bandorder=BIL
+minvalue=246.110568756614:0.0375971626984501:-1.18900850614671:0.00199805305695065:0.558686238739354
+maxvalue=301.227713333333:1.21360646494711:0.5706640674602:0.157033232315213:6.01888670261296
+nodatavalue=-3.4e+38
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=elevation:tri:tpi:slope:aspect
