@@ -13,38 +13,6 @@
 
  > Tip: Run notebooks from the repository root so relative paths to `data/` and `codes/` resolve correctly.
 
- ## Quick start
-
- ### 1) Create a Python environment (recommended: conda/mamba)
-
- ```bash
- # Create environment (Python 3.11 or newer recommended)
- conda create -n soildepth python=3.11 -y
- conda activate soildepth
-
- # Install geospatial stack from conda-forge
- conda install -c conda-forge -y \
-   jupyterlab numpy pandas geopandas rasterio rioxarray shapely pyproj \
-   scikit-learn scikit-gstat pykrige matplotlib seaborn tqdm gdal
- ```
-
- ### 2) pip install..
-
- ```bash
- pip install jupyter numpy pandas geopandas rasterio rioxarray shapely \
-   scikit-learn scikit-gstat pykrige matplotlib seaborn pyproj tqdm
- ```
-
- ### 2) Launch notebooks
-
- ```bash
- # From the repository root
- jupyter lab
- ```
- Then open:
- - `codes/Spatial_data_assembly.ipynb` (prepare inputs)
- - `codes/interpolation.ipynb` (interpolate/model and map)
-
  ## Data notes
 
  - Field-level layers are stored as GeoPackages (`*.gpkg`) and rasters (`*.grd`/`*.gri`).
@@ -63,19 +31,6 @@
 
  ## Citation
 
- If this work or the workflow is useful in your research or teaching, please cite relevant sources. For example:
-
- Peralta, N. R., et al. (2021). Mapping soil depth in southern Pampas, Argentina using ancillary data. Soil Science Society of America Journal.
-
- (Replace or expand with the exact citation you use in your work.)
-
- ## License
-
- No license specified. Until a license is added, all rights reserved by the authors. If you intend to share or reuse, add a `LICENSE` file (e.g., MIT, BSD-3-Clause) and update this section.
-
- ## Acknowledgements
-
- - Open-source geospatial ecosystem: `geopandas`, `rasterio`, `rioxarray`, `shapely`, `pyproj`, `scikit-learn`, `pykrige`, `scikit-gstat`, and others.
- - Course and case study context for soil depth mapping.
+Peralta, N. R., Alesso, C. A., Costa, J. L., & Martin, N. F. (2022). Mapping soil depth in southern pampas Argentina using ancillary data and statistical learning.  Soil Science Society of America Journal, 86, 65–78.  https://doi.org/10.1002/saj2.20350
 
 
